@@ -1,0 +1,35 @@
+.page-header {
+}
+
+.page-header__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding-top: 10px;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav__item {
+  &:not(:last-child) {
+    margin-right: 40px;
+  }
+}
+
+.site-nav__link {
+  font-size: 14px;
+  line-height: 1.17;
+  color: $section-title-color;
+
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: $button-color;
+  }
+}
