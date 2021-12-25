@@ -1,0 +1,45 @@
+.section {
+    display: flex;
+    padding: 110px 211px 149px 254px;
+}
+.container {
+    padding: 203px 233px 84.19px 0;
+}
+.section__name {
+    margin-bottom: 59px;
+}
+.section__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.17;
+    color: #000000;
+}
+.section__inscription {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.17;
+    text-align: center;
+    color: #000000;
+    opacity: 0.7;
+}
+.section__reviews {
+    display: flex;
+    align-items: flex-start;
+}
+.section__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+    opacity: 0.7;
+}
+.section__photos {
+    display: flex;
+    align-items: center;
+}
