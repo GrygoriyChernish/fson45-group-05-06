@@ -27,4 +27,9 @@
   color: $section-title-color;
 
   cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: $button-color;
+  }
 }
