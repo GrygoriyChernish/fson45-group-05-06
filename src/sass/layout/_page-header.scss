@@ -1,9 +1,11 @@
 .page-header {
+  background-color: $section-background-color;
 }
 
 .page-header__container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -12,7 +14,6 @@
 
 .site-nav {
   display: flex;
-  align-items: center;
 }
 
 .site-nav__item {
@@ -22,6 +23,8 @@
 }
 
 .site-nav__link {
+  padding: 20px 0;
+
   font-size: 14px;
   line-height: 1.17;
   color: $section-title-color;
