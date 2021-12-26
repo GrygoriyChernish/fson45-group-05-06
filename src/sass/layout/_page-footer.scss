@@ -103,12 +103,18 @@
   padding-left: 32px;
   padding-right: 32px;
 
+  font-size: 14px;
+  line-height: 1.17;
   color: $footer-text-color;
 
   background-color: transparent;
-  opacity: 0.5;
-  border: 2px solid #d64374;
+  border: 2px solid rgb(214, 67, 116, 0.6);
   border-radius: 5px;
+
+  &::placeholder {
+    color: $footer-text-color;
+    opacity: 0.5;
+  }
 }
 
 .payments {
