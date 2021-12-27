@@ -1,16 +1,30 @@
 .hero {
-  display: flex;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 254px;
   paint-order: 114px;
   background-color: $section-background-color;
 }
-
+.hero-container {
+  position: relative;
+}
 .hero__block {
-  padding-top: 159px;
+  padding-top: 196px;
   padding-bottom: 213px;
+  padding-left: 10px;
   width: 665px;
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 322px;
+    right: 0;
+    width: 365px;
+    height: 353px;
+    background-color: $button-color;
+    opacity: 0.1;
+    border-radius: 50%;
+  }
 }
 
 .hero__title {
@@ -39,26 +53,23 @@
 
 .hero__button {
   padding: 13px 50px;
+  font-family: Hind Madurai, serif;
   background-color: $button-color;
   color: $secondary-button-color;
   border-radius: 5px;
+  border-color: $button-color;
 }
 
 .hero__image-main {
-  position: relative;
-  height: 100%;
-
-  &::after {
-    width: 365px;
-    height: 353px;
-    background: #000000;
-    opacity: 0.1;
-    border-radius: 50%;
-  }
+  position: absolute;
+  top: 37px;
+  right: -125px;
+  // height: 100%;
 }
+
 .hero__image-add {
   position: absolute;
-  top: 150px;
-  right: 570px;
+  top: 175px;
+  right: -215px;
   transform: rotate(4.79deg);
 }
